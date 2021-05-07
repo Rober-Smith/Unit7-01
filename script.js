@@ -13,6 +13,6 @@ function randomizer () {
   randomNumber = parseInt(randomNumber)
 
   if (userGuess === randomNumber) {
-   document.getElementById('answer').innerHTML =
-    "you win";
+   document.getElementById('answer').innerHTML ="you win"
+  }
 }
