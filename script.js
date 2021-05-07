@@ -1,8 +1,8 @@
-document.getElementById('button').addEventListener
-('click' ,randomizer)
 let randomNumber = 0
 let userGuess = 0
 //  varables for numbers
+
+document.getElementById('calculate').addEventListener('click', buttonOne)
 
 function randomizer () {
   userGuess = document.getElementById('input').value
@@ -14,5 +14,5 @@ function randomizer () {
 
   if (userGuess === randomNumber) {
    document.getElementById('answer').innerHTML =
-    "you win"
+    "you win";
 }
