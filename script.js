@@ -15,5 +15,4 @@ function randomizer () {
   if (userGuess === randomNumber) {
    document.getElementById('answer').innerHTML =
     "you win"
-
 }
