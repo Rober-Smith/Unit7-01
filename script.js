@@ -1,7 +1,7 @@
 let randomNumber = 0
 let userGuess = 0
 
-document.getElementById('button').addEventListener('click',randomizer)
+document.getElementById('button').addEventListener('click', randomizer)
 
 function randomizer () {
   userGuess = document.getElementById('input').value
@@ -11,6 +11,8 @@ function randomizer () {
   randomNumber = parseInt(randomNumber)
 
   if (userGuess === randomNumber) {
-   document.getElementById('answer').innerHTML ="you win"
+    document.getElementById('answer').innerHTML = 
+    "you win"
   }
+  
 }
